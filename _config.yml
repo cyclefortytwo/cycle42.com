@@ -1,0 +1,17 @@
+# Site settings
+title: Cycle42 
+tagline: "Cypherpunk cooperative located in Berlin"
+url: "https://cycle42.com"
+
+# Social
+socialimg: /img/social.jpg # be sure to change this image
+github_user: cyclefortytwo 
+
+# Contact
+email: "contact@cycle42.com" 
+
+# Use this for production
+#sass:
+#    style: compressed
+
+exclude: [.scss, README.md, node_modules, package.json]
