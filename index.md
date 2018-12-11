@@ -35,7 +35,7 @@ To achive our mission we:
 * Develop OpenCL miner for Grin - *Coming soon*{:.text-grey-dark}
 * Develop iOS/Android wallet **Galleon** - *Coming soon*{:.text-grey-dark}
 * Develop Trezor/Ledger wallet integration - *Coming soon*{:.text-grey-dark}
-* Run Belrin MimbleWimble/Grin [Meetup group](https://www.meetup.com/MimbleWimble-Grin-Berlin/)
+* Run Berlin MimbleWimble/Grin [Meetup group](https://www.meetup.com/MimbleWimble-Grin-Berlin/)
 * Organize events:
 	* **Grincon0** - first ever conference in the World about MimbleWimble/Grin, happened 9th Nov 2018 in Berlin. See videos [here](https://grincon.info/) 
 
