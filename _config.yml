@@ -1,14 +1,14 @@
 # Site settings
-title: Cycle42 
+title: Cycle42
 tagline: "Cypherpunk cooperative located in Berlin"
 url: "https://cycle42.com"
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
-github_user: cyclefortytwo 
+github_user: cyclefortytwo
 
 # Contact
-email: "contact@cycle42.com" 
+email: "contact@cycle42.com"
 
 # Use this for production
 #sass:
