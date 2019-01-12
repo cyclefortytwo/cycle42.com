@@ -32,7 +32,7 @@ What is **[Grin](http://grin-tech.org/)**? Electronic transactions for all. With
 {:.text-xl .leading-normal .mt-8}
 To achive our mission we:
 * Contribute to core-development of **[Grin](https://github.com/mimblewimble/grin/)**
-* Develop iOS/Android wallet for Grin - **[Smirk Wallet](/smirk)**
+* Develop iOS/Android wallet for Grin - **[Ironbelly Wallet](/ironbelly)**
 * Develop OpenCL miner for Grin - *Coming soon*{:.text-grey-dark}
 * Develop Trezor/Ledger wallet integration - *Coming soon*{:.text-grey-dark}
 * Run Berlin MimbleWimble/Grin [Meetup group](https://www.meetup.com/MimbleWimble-Grin-Berlin/)
