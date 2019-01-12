@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home Page"
-fulltitle: "My New Website | Update Coming August 2004" 
+fulltitle: "Cypherpunk cooperative located in Berlin"
 excerpt: Cypherpunk cooperative located in Berlin
 
 ---
@@ -26,24 +26,24 @@ excerpt: Cypherpunk cooperative located in Berlin
 ## What we do
 
 {:.text-xl .leading-normal}
-Our mission is wide adoption of Grin.   
-What is **[Grin](http://grin-tech.org/)**? Electronic transactions for all. Without censorship or restrictions. 
+Our mission is wide adoption of Grin.
+What is **[Grin](http://grin-tech.org/)**? Electronic transactions for all. Without censorship or restrictions.
 
 {:.text-xl .leading-normal .mt-8}
-To achive our mission we: 
-* Contribute to core-development of [Grin](https://github.com/mimblewimble/grin/)
+To achive our mission we:
+* Contribute to core-development of **[Grin](https://github.com/mimblewimble/grin/)**
+* Develop iOS/Android wallet for Grin - **[Smirk Wallet](/smirk)**
 * Develop OpenCL miner for Grin - *Coming soon*{:.text-grey-dark}
-* Develop iOS/Android wallet **Galleon** - *Coming soon*{:.text-grey-dark}
 * Develop Trezor/Ledger wallet integration - *Coming soon*{:.text-grey-dark}
 * Run Berlin MimbleWimble/Grin [Meetup group](https://www.meetup.com/MimbleWimble-Grin-Berlin/)
 * Organize events:
-	* **Grincon0** - first ever conference in the World about MimbleWimble/Grin, happened 9th Nov 2018 in Berlin. See videos [here](https://grincon.info/) 
+	* **Grincon0** - first ever conference in the World about MimbleWimble/Grin, happened 9th Nov 2018 in Berlin. See videos [here](https://grincon.info/)
 
 </section>
 <div id="contact" class="-mt-24 mb-24"></div>
 <section class="container mx-auto px-8 sm:px-8 md:w-2/3" markdown="1">
 {:.text-4xl .text-center .mb-6 .pt-6}
-## Contact 
+## Contact
 
 {:.text-xl .leading-normal .text-center .pb-8}
 Please write us [contact@cycle42.com](mailto:contact@cycle42.com)
