@@ -26,18 +26,18 @@ excerpt: Cypherpunk cooperative located in Berlin
 ## What we do
 
 {:.text-xl .leading-normal}
-Our mission is wide adoption of Grin.
+Our mission is a wide adoption of Grin.
 What is **[Grin](http://grin-tech.org/)**? Electronic transactions for all. Without censorship or restrictions.
 
 {:.text-xl .leading-normal .mt-8}
 To achive our mission we:
 * Contribute to core-development of **[Grin](https://github.com/mimblewimble/grin/)**
 * Develop iOS/Android wallet for Grin - **[Ironbelly Wallet](/ironbelly)**
-* Develop OpenCL miner for Grin - *Coming soon*{:.text-grey-dark}
+* Develop OpenCL miner for Grin - already a part of grin-miner
 * Develop Trezor/Ledger wallet integration - *Coming soon*{:.text-grey-dark}
 * Run Berlin MimbleWimble/Grin [Meetup group](https://www.meetup.com/MimbleWimble-Grin-Berlin/)
 * Organize events:
-	* **Grincon0** - first ever conference in the World about MimbleWimble/Grin, happened 9th Nov 2018 in Berlin. See videos [here](https://grincon.info/)
+	* **Grincon0** - first ever conference in the World about MimbleWimble/Grin, happened on 9th Nov 2018 in Berlin. See videos [here](https://grincon.info/)
 
 </section>
 <div id="contact" class="-mt-24 mb-24"></div>
