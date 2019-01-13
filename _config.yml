@@ -15,3 +15,5 @@ email: "contact@cycle42.com"
 #    style: compressed
 
 exclude: [.scss, README.md, node_modules, package.json]
+
+host: 0.0.0.0
