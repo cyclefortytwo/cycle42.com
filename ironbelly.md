@@ -1,6 +1,5 @@
 ---
 layout: ironbelly
-title: "Ironbelly - Grin Mobile wallet"
-fulltitle: "Ironbelly - Grin Mobile wallet"
-excerpt: Ironbelly - Grin Mobile wallet
+title: "Ironbelly"
+excerpt: "Grin mobile wallet you've deserved"
 ---
