@@ -23,17 +23,20 @@
   </div>
 </nav>
 </header>
-      <div class="container flex flex-grow h-full mt-8 items-center flex-col px-4">
-        <h1 class="mt-2 sm:mt-0 text-4xl sm:text-5xl">Ironbelly 🐉</h1>
-        <h2 class="text-base sm:text-2xl font-light leading-loose text-grey-dark mb-2">Grin mobile wallet you've deserved</h2>
-        <div class="w-full lg:w-4/5 xl:w-2/3">
-        <div class="videoWrapper">
-          <iframe id="ytplayer" type="text/html" width="800" height="450"
-  src="https://www.youtube.com/embed/kCGUhWYUhgc?autoplay=1&cc_load_policy=1"
-  frameborder="0"></iframe>
-        </div>
-        </div>
-        <p class="text-lg sm:text-xl text-center leading-loose mt-4">Build on top of Grin Rust code. Will be open-sourced.<br /> Public <b>beta testing is coming soon</b>, stay tuned!</p>
+      <div class="container flex flex-grow h-full mt-8 flex-col px-4 sm:w-3/5 w-full mx-auto">
+        <h1 class="mt-2 sm:mt-0 text-4xl sm:text-5xl text-center"><img class="w-12 h-12" src="img/Icon.png" /> Ironbelly</h1>
+        <h2 class="text-base sm:text-2xl font-light leading-loose text-grey-dark mb-2 text-center">Grin mobile wallet you've deserved</h2>
+        <p class="text-lg sm:text-xl text-center leading-normal mt-4 ">Uses <a href="https://github.com/mimblewimble/grin">original Rust code</a> and React-Native for the UI. We are working hard to open-source it very soon! Design is heavily inspired by @GBKS work over <a href="https://www.figma.com/file/n5o6ptY5FaPS1E1KmR0Bcx/Grin-web-wallet">here</a>.</p>
+        <p class="text-xl sm:text-2xl mt-4 font-bold text-center">Current limitations</p>
+        <ul>
+          <li>While the app is in beta testing - it operates only in <b>Floonet</b> (Grin testnet)</li>
+          <li><b>Floonet</b> is very unreliable right now, so your transaction confirmations can take longer (some times way longer) then 1 minute</li>
+          <li>Wallet ecryption is not supported yet, so only empty password is supported now</li>
+          <li>Multi-account is disabled, so only <tt>default</tt> account is supported for now</li>
+          <li>Please do not close the app during the initial wallet recovery - we are working on making it interruptable, but currently it's not</li>
+          <li>It's a lot of bugs in the app, but you can report them to us - <a href="mailto:ironbelly@cycle42.com">ironbelly@cycle42.com</a></li>
+        </ul>
+        <p class="text-xl sm:text-2xl text-center leading-loose"> Public beta testing <b><s>is coming soon</s></b>, <b><a href="https://testflight.apple.com/join/GrqGPx9W" >already here</a></b>!</p>
       </div>
 
   </body>
