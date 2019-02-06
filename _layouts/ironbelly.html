@@ -18,25 +18,30 @@
 <nav class="mx-auto z-50 fixed w-full pin-t">
   <div class="container flex sm:items-center justify-between w-full flex-row pin-t pin-x mx-auto flex-wrap">
     <div class="flex items-center flex-no-shrink">
-      <a href="/"><img id="nav-logo" class="w-8 h-8 mt-4 sm:mt-6 ml-3" src="img/Cycle42.svg" /></a>
+      <a href="/"><img id="nav-logo" class="w-16 h-16 sm:mt-6 bg-white p-4 rounded" src="img/Cycle42.svg" /></a>
     </div>
   </div>
 </nav>
 </header>
-      <div class="container flex flex-grow h-full mt-8 flex-col px-4 sm:w-3/5 w-full mx-auto">
-        <h1 class="mt-2 sm:mt-0 text-4xl sm:text-5xl text-center"><img class="w-12 h-12" src="img/Icon.png" /> Ironbelly</h1>
+      <div class="container flex flex-grow h-full mt-12 sm:mt-8 flex-col px-4 sm:w-3/5 w-full mx-auto">
+        <div class="mt-2 sm:mt-0 flex-row self-center"><h1 class="text-4xl sm:text-5xl flex">Ironbelly</h1></div>
         <h2 class="text-base sm:text-2xl font-light leading-loose text-grey-dark mb-2 text-center">Grin mobile wallet you've deserved</h2>
-        <p class="text-lg sm:text-xl text-center leading-normal mt-4 ">Uses <a href="https://github.com/mimblewimble/grin">original Rust code</a> and React-Native for the UI. We are working hard to open-source it very soon! Design is heavily inspired by @GBKS work over <a href="https://www.figma.com/file/n5o6ptY5FaPS1E1KmR0Bcx/Grin-web-wallet">here</a>.</p>
-        <p class="text-xl sm:text-2xl mt-4 font-bold text-center">Current limitations</p>
+        <a class="bg-blue hover:bg-blue-dark py-4 px-6 rounded text-white w-64 text-center self-center" href="https://testflight.apple.com/join/GrqGPx9W" >Join iOS beta testing</a>
+        <p class="text-lg sm:text-xl text-center leading-normal mt-4 ">Uses <a href="https://github.com/mimblewimble/grin">official Rust code</a> and React-Native for the UI. <br />Design is heavily inspired by @GBKS <a href="https://www.figma.com/file/n5o6ptY5FaPS1E1KmR0Bcx/Grin-web-wallet">grin wallet design</a>.</p>
+        <p class="text-xl sm:text-2xl mt-4 text-center font-bold">Current limitations</p>
         <ul>
           <li>While the app is in beta testing - it operates only in <b>Floonet</b> (Grin testnet)</li>
-          <li><b>Floonet</b> is very unreliable right now, so your transaction confirmations can take longer (some times way longer) then 1 minute</li>
           <li>Wallet ecryption is not supported yet, so only empty password is supported now</li>
           <li>Multi-account is disabled, so only <tt>default</tt> account is supported for now</li>
           <li>Please do not close the app during the initial wallet recovery - we are working on making it interruptable, but currently it's not</li>
           <li>It's a lot of bugs in the app, but you can report them to us - <a href="mailto:ironbelly@cycle42.com">ironbelly@cycle42.com</a></li>
         </ul>
-        <p class="text-xl sm:text-2xl text-center leading-loose"> Public beta testing <b><s>is coming soon</s></b>, <b><a href="https://testflight.apple.com/join/GrqGPx9W" >already here</a></b>!</p>
+      </div>
+      <div>
+        <ul class="list-reset flex flex-row">
+          <li><a href="https://github.com/cyclefortytwo/ironbelly" target="_blank">Github</a></li>
+          <li><a href="https://gitter.im/ironbelly-wallet/community" target="_blank">Gitter</a></li>
+        </ul>
       </div>
 
   </body>
