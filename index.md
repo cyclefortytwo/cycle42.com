@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing 
 title: "Home Page"
 fulltitle: "Cypherpunk cooperative located in Berlin"
 excerpt: Cypherpunk cooperative located in Berlin

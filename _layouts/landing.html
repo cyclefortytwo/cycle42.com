@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="css/landing.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway:400,600"
+      rel="stylesheet"
+    />
+    <!-- Put your fonts here -->
+  </head>
+
+  <body>
+    {% include header.html %}
+    <!--[if lt IE 8]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+
+    {{ content }} {% include footer.html %}
+    <script>
+      var burger = document.querySelector(".burger");
+      var menu = document.querySelector("#" + burger.dataset.target);
+      var nav = document.querySelector("nav");
+      var landingChevron = document.querySelector("#landing-chevron");
+      var heroLogo = document.querySelector("#hero-logo");
+      var navLogo = document.querySelector("#nav-logo");
+      var isScrolled = false;
+      var menuClick = function() {
+        burger.classList.toggle("hidden");
+        menu.classList.toggle("hidden");
+        if (!isScrolled) {
+          nav.classList.toggle("shadow");
+        }
+      };
+      burger.addEventListener("click", menuClick);
+      menu.addEventListener("click", menuClick);
+
+      var heroLogoPos = heroLogo.getBoundingClientRect();
+      var navPos = nav.getBoundingClientRect();
+
+      var observer = new IntersectionObserver(
+        function(entries, observer) {
+          if (!entries[0].isIntersecting) {
+            navLogo.classList.remove("hidden");
+          } else {
+            navLogo.classList.add("hidden");
+          }
+        },
+        {
+          root: null,
+          rootMargin: -Math.round(navPos.height) - 30 + "px",
+          threshold: 0
+        }
+      );
+      observer.observe(heroLogo);
+
+      window.addEventListener("scroll", function() {
+        //var domRect = heroLogo.getBoundingClientRect();
+        // console.log(domRect)
+        var scroll =
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop ||
+          0;
+        if (scroll > 0) {
+          if (!isScrolled) {
+            nav.classList.add("shadow");
+            landingChevron.classList.add("invisible");
+            isScrolled = true;
+          }
+        } else {
+          nav.classList.remove("shadow");
+          landingChevron.classList.remove("invisible");
+          isScrolled = false;
+        }
+      });
+    </script>
+  </body>
+</html>

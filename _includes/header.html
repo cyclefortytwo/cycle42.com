@@ -1,19 +1,50 @@
 <header>
-<nav class="mx-auto bg-white z-50 fixed w-full pin-t">
-  <div class="container flex sm:items-center justify-between w-full flex-row pin-t pin-x mx-auto flex-wrap">
-    <div class="flex items-center flex-no-shrink">
-      <img id="nav-logo" class="w-8 h-8 mt-1 sm:mt-2 ml-4 hidden" src="img/Cycle42.svg" />
+  <nav class="mx-auto bg-white z-50 fixed w-full pin-t">
+    <div
+      class="container flex sm:items-center justify-between w-full flex-row pin-t pin-x mx-auto flex-wrap"
+    >
+      <div class="flex items-center flex-no-shrink">
+        <img
+          id="nav-logo"
+          class="w-8 h-8 mt-1 sm:mt-2 ml-4 hidden"
+          src="img/Cycle42.svg"
+        />
+      </div>
+      <div class="block sm:hidden hover:bg-grey-lightest">
+        <button
+          class="p-4 flex items-center text-grey-darker burger"
+          data-target="burger-menu"
+        >
+          <svg
+            class="fill-current h-6 w-6"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="hidden flex-col w-full sm:flex sm:flex-row sm:w-auto hidden flex-grow justify-end"
+        id="burger-menu"
+      >
+        <a
+          class="block p-3 sm:p-6 text-grey-darker hover:text-grey-darkest font-bold no-underline"
+          href="/ironbelly"
+          >Ironbelly Wallet</a
+        >
+        <a
+          class="block p-3 sm:p-6 text-grey-darker hover:text-grey-darkest no-underline"
+          href="#whatwedo"
+          >What we do</a
+        >
+        <a
+          class="block p-3 sm:p-6 text-grey-darker hover:text-grey-darkest no-underline"
+          href="#contact"
+          >Contact</a
+        >
+      </div>
     </div>
-    <div class="block sm:hidden hover:bg-grey-lightest">
-      <button class="p-4 flex items-center text-grey-darker burger" data-target="burger-menu">
-        <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-      </button>
-    </div>
-    <div class="hidden flex-col w-full sm:flex sm:flex-row sm:w-auto hidden flex-grow justify-end" id="burger-menu">
-      <a class="block p-3 sm:p-6 text-grey-darker hover:text-grey-darkest font-bold no-underline" href="/ironbelly">Ironbelly Wallet</a>
-      <a class="block p-3 sm:p-6 text-grey-darker hover:text-grey-darkest no-underline" href="#whatwedo">What we do</a>
-      <a class="block p-3 sm:p-6 text-grey-darker hover:text-grey-darkest no-underline" href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
+  </nav>
 </header>
