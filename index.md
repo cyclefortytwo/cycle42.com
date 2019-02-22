@@ -40,6 +40,14 @@ To achive our mission we:
 	* **Grincon0** - first ever conference in the World about MimbleWimble/Grin, happened on 9th Nov 2018 in Berlin. See videos [here](https://grincon.info/)
 
 </section>
+<div id="donations" class="-mt-24 mb-24"></div>
+<section class="container mx-auto px-8 sm:px-8 md:w-2/3" markdown="1">
+{:.text-4xl .text-center .mb-6 .pt-6}
+## Donations
+
+{:.text-xl .leading-normal .text-center .pb-8 .list-reset}
+`grin wallet send -d https://donate.cycle42.com:3415`
+</section>
 <div id="contact" class="-mt-24 mb-24"></div>
 <section class="container mx-auto px-8 sm:px-8 md:w-2/3" markdown="1">
 {:.text-4xl .text-center .mb-6 .pt-6}
