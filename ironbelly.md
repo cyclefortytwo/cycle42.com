@@ -30,7 +30,7 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 </div>
 </section>
 
-<section markdown="1" class="pl-8 lg:pl-24 pr-8 pt-8 pb-8 container mx-auto limitations-section">
+<section markdown="1" class="text-sm md:text-base px-4 sm:px-8 lg:pl-24 pt-8 pb-8 container mx-auto limitations-section">
 <div class="pb-8 sm:hidden flex">
 <div class="w-1/2 text-center text-2xl"><a class="text-black no-underline" href="{{ page.github }}"><i class="fab fa-github"></i>&nbsp;&nbsp;Github</a></div>
 <div class="w-1/2 text-center text-2xl"><a class="text-black no-underline" href="{{ page.gitter }}"><i class="fab fa-gitter"></i>&nbsp;&nbsp;Gitter</a></div>

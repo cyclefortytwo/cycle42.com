@@ -9,7 +9,7 @@ None of these variable are being imported anywhere, they're just here for your c
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 // Some Style Variables
@@ -46,20 +46,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 ul {
   list-style-type: square;
   padding: 0.5rem 1.25rem;
   li {
-    font-size: 1.25rem;
     padding: 0 0.5rem 0.5rem 0.5rem;
   }
   @media (min-width: 576px) {
     padding: 1rem 1.25rem;
     li {
-      font-size: 1.25rem;
       padding: 0 1rem 1rem 1rem;
     }
   }
@@ -71,16 +69,16 @@ a {
 }
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
   width: 100%;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
