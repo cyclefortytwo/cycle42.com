@@ -9,12 +9,12 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 ---
 
 <section class="bg-total-black" >
-<div  class="flex flex-row justify-center lg:justify-between container mx-auto pl-8 pr-8 lg:pl-24 lg:pr-24 pt-10 sm:pt-20">
+<div  class="flex flex-row justify-center lg:justify-between container mx-auto pl-8 pr-8 xl:pl-24 xl:pr-24 pt-10 sm:pt-20">
 <div markdown="1">
 {:.text-5xl .text-white .mb-2 .font-bold .text-center .lg:text-left}
 # Ironbelly
 
-{:.font-normal .text-2xl .text-white .mb-4 .sm:mb-8 .text-center .lg:text-left}
+{:.font-normal .text-xl .sm:text-2xl .text-white .mb-4 .sm:mb-8 .text-center .lg:text-left}
 ## Grin mobile wallet you've deserved
 
 {:.list-reset .flex .items-center .sm:items-start .flex-col .sm:flex-row .pb-4 .sm:pb-8 .justify-center .lg:justify-start}
@@ -30,7 +30,7 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 </div>
 </section>
 
-<section markdown="1" class="pl-8 lg:pl-24 pr-8 pt-8 sm:pt-16 container mx-auto limitations-section">
+<section markdown="1" class="pl-8 lg:pl-24 pr-8 pt-8 pb-8 container mx-auto limitations-section">
 <div class="pb-8 sm:hidden flex">
 <div class="w-1/2 text-center text-2xl"><a class="text-black no-underline" href="{{ page.github }}"><i class="fab fa-github"></i>&nbsp;&nbsp;Github</a></div>
 <div class="w-1/2 text-center text-2xl"><a class="text-black no-underline" href="{{ page.gitter }}"><i class="fab fa-gitter"></i>&nbsp;&nbsp;Gitter</a></div>
@@ -46,7 +46,7 @@ Limitations
 * {:.leading-loose } Please do not close the app during the initial wallet recovery - we are working on making it interruptable, but currently it's not
 * {:.leading-loose } Bug reports and suggestions - [ironbelly@cycle42.com](mailto:ironbelly@cycle42.com)
 
-{:.font-medium .text-2xl .font-bold .my-4 .text-left}
+{:.font-medium .text-2xl .font-bold .mb-4 .mt-8 .text-left}
 Credits
 
 {:.list-reset .limitations-list .w-full .lg:w-1/2 .xl:w-3/5}
@@ -55,6 +55,6 @@ Credits
 
 </section>
 <section class="flex flex-grow" ></section>
-<footer markdown="1" class="text-center mt-4 pb-4 text-grey-darkest">
+<footer markdown="1" class="text-center pt-4 pb-4 text-grey-darkest border-t border-grey sm:border-0">
 Powered by [Cycle42](/)
 </footer>
