@@ -1,5 +1,5 @@
 ---
-layout: landing 
+layout: landing
 title: "Home Page"
 fulltitle: "Cypherpunk cooperative located in Berlin"
 excerpt: Cypherpunk cooperative located in Berlin
@@ -32,7 +32,7 @@ What is **[Grin](http://grin-tech.org/)**? Electronic transactions for all. With
 {:.text-xl .leading-normal .mt-8}
 To achive our mission we:
 * Contribute to core-development of **[Grin](https://github.com/mimblewimble/grin/)**
-* Develop iOS/Android wallet for Grin - **[Ironbelly Wallet](/ironbelly)**
+* Develop iOS/Android wallet for Grin - **[Ironbelly](/ironbelly)**
 * Develop OpenCL miner for Grin - already a part of grin-miner
 * Develop Trezor/Ledger wallet integration - *Coming soon*{:.text-grey-dark}
 * Run Berlin MimbleWimble/Grin [Meetup group](https://www.meetup.com/MimbleWimble-Grin-Berlin/)
@@ -53,6 +53,6 @@ To achive our mission we:
 {:.text-4xl .text-center .mb-6 .pt-6}
 ## Contact
 
-{:.text-xl .leading-normal .text-center .pb-8}
+{:.text-xl .leading-normal .text-center .pb-8 }
 Please write us [contact@cycle42.com](mailto:contact@cycle42.com)
 </section>

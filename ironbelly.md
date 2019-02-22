@@ -18,9 +18,9 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 ## Grin mobile wallet you've deserved
 
 {:.list-reset .flex .items-center .sm:items-start .flex-col .sm:flex-row .pb-4 .sm:pb-8 .justify-center .lg:justify-start}
-* {:.py-6}[Join the iOS beta test]({{ page.testflight }}){:.bg-yellow .hover:bg-yellow-dark .text-black .py-3 .px-4 .rounded .font-medium .no-underline}
-* {:.py-6 .hidden .sm:block}[Github]({{ page.github }}){:.bg-total-black .hover:bg-black .text-white .py-3 .px-4 .rounded .font-light .no-underline .sm:ml-8 .border .border-white}
-* {:.py-6 .hidden .sm:block}[Gitter]({{ page.gitter }}){:.bg-total-black .hover:bg-black .text-white .py-3 .px-4 .rounded .font-light .no-underline .sm:ml-8 .border .border-white}
+* {:.py-6}[<i class="fab fa-apple"></i>&nbsp;&nbsp;Join the iOS beta test]({{ page.testflight }}){:.bg-yellow .hover:bg-yellow-dark .text-black .py-3 .px-4 .rounded .font-medium .no-underline}
+* {:.py-6 .hidden .sm:block}[<i class="fab fa-github"></i>&nbsp;&nbsp;Github]({{ page.github }}){:.bg-total-black .hover:bg-black .text-white .py-3 .px-4 .rounded .font-light .no-underline .sm:ml-8 .border .border-white}
+* {:.py-6 .hidden .sm:block}[<i class="fab fa-gitter"></i>&nbsp;&nbsp;Gitter]({{ page.gitter }}){:.bg-total-black .hover:bg-black .text-white .py-3 .px-4 .rounded .font-light .no-underline .sm:ml-8 .border .border-white}
 </div>
 <img
   class="hidden lg:block phone"
@@ -32,8 +32,8 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 
 <section markdown="1" class="pl-8 lg:pl-24 pr-8 pt-8 sm:pt-16 container mx-auto limitations-section">
 <div class="pb-8 sm:hidden flex">
-<div class="w-1/2 text-center text-2xl"><a class="text-black" href="{{ page.github }}"><i class="fab fa-github"></i></a></div>
-<div class="w-1/2 text-center text-2xl"><a class="text-black" href="{{ page.gitter }}"><i class="fab fa-gitter"></i></a></div>
+<div class="w-1/2 text-center text-2xl"><a class="text-black no-underline" href="{{ page.github }}"><i class="fab fa-github"></i>&nbsp;&nbsp;Github</a></div>
+<div class="w-1/2 text-center text-2xl"><a class="text-black no-underline" href="{{ page.gitter }}"><i class="fab fa-gitter"></i>&nbsp;&nbsp;Gitter</a></div>
 </div>
 
 {:.font-medium .text-2xl .font-bold .mb-4 .text-left}
@@ -55,6 +55,6 @@ Credits
 
 </section>
 <section class="flex flex-grow" ></section>
-<footer markdown="1" class="text-center mt-4 pb-4">
+<footer markdown="1" class="text-center mt-4 pb-4 text-grey-darkest">
 Powered by [Cycle42](/)
 </footer>
