@@ -24,7 +24,7 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 </div>
 <img
   class="hidden lg:block phone"
-  width="320"
+  style="height: 645px;width: 320px;"
   src="img/ironbelly_preview.png"
 />
 </div>
