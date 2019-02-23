@@ -1,3 +1,17 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-127114283-2"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "UA-127114283-2", { anonymize_ip: true });
+</script>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta
@@ -72,12 +86,6 @@
   crossorigin="anonymous"
 />
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-<script>
-  var clicky_site_ids = clicky_site_ids || [];
-  clicky_site_ids.push(101162198);
-</script>
-<script async src="//static.getclicky.com/js"></script>
-
 <title>
   {% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{
   site.title }} {% endif %}
