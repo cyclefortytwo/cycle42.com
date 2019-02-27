@@ -41,6 +41,14 @@ To achive our mission we:
 	* **Grincon0** - first ever conference in the World about MimbleWimble/Grin, happened on 9th Nov 2018 in Berlin. See videos [here](https://grincon.info/)
 
 </section>
+<div id="supporters" class="-mt-24 mb-24"></div>
+<section class="container mx-auto px-3 sm:px-8 md:w-2/3" markdown="1">
+{:.text-2xl .sm:text-3xl .mb-4 .sm:mb-6 .pt-4 .sm:pt-6}
+## Supporters
+
+* Pavol Rusnak
+* Michalis Kargakis
+</section>
 <div id="donations" class="-mt-24 mb-24"></div>
 <section class="container mx-auto px-3 sm:px-8 md:w-2/3" markdown="1">
 {:.text-2xl .sm:text-3xl .mb-4 .sm:mb-6 .pt-4 .sm:pt-6}
