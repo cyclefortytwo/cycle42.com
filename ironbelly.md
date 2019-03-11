@@ -2,7 +2,7 @@
 layout: ironbelly
 title: "Ironbelly"
 excerpt: "Grin mobile wallet you've deserved"
-image: /img/Icon.png
+image: /img/Ironbelly.png
 github: https://github.com/cyclefortytwo/ironbelly
 gitter: https://gitter.im/ironbelly-wallet/community
 testflight: https://testflight.apple.com/join/GrqGPx9W
