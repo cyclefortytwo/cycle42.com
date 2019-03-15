@@ -47,6 +47,13 @@ Limitations
 * {:.leading-loose } Bug reports and suggestions - [ironbelly@cycle42.com](mailto:ironbelly@cycle42.com)
 
 {:.font-medium .text-2xl .font-bold .mb-4 .mt-8 .text-left}
+Grant campaign
+
+{:.leading-loose .w-full .lg:w-1/2 .xl:w-3/5}
+If you would like to support Ironbelly - we are running a grant campaign on Gitcoin [https://gitcoin.co/grants/58/ironbelly](https://gitcoin.co/grants/58/ironbelly).
+
+
+{:.font-medium .text-2xl .font-bold .mb-4 .mt-8 .text-left}
 Credits
 
 {:.list-reset .limitations-list .w-full .lg:w-1/2 .xl:w-3/5}
