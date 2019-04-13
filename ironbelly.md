@@ -9,7 +9,7 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 ---
 
 <section class="bg-total-black" >
-<div  class="flex flex-row justify-center lg:justify-between container mx-auto pl-8 pr-8 xl:pl-24 xl:pr-24 pt-10 sm:pt-20">
+<div  class="flex flex-row justify-center lg:justify-between container mx-auto pl-8 pr-8 xl:pl-24 xl:pr-24 pt-10 sm:pt-16">
 <div markdown="1">
 {:.text-5xl .text-white .mb-2 .font-bold .text-center .lg:text-left}
 # Ironbelly
@@ -40,14 +40,11 @@ testflight: https://testflight.apple.com/join/GrqGPx9W
 Limitations
 
 {:.list-reset .limitations-list .w-full .lg:w-1/2 .xl:w-3/5}
-* {:.leading-loose } While the app is in beta testing - it operates only in Floonet (Grin testnet)
-* {:.leading-loose } Wallet ecryption is not supported yet, so only empty password is supported now
-* {:.leading-loose } Multi-account is disabled, so only <tt>default</tt> account is supported for now
 * {:.leading-loose } Please do not close the app during the initial wallet recovery - we are working on making it interruptable, but currently it's not
 * {:.leading-loose } Bug reports and suggestions - [ironbelly@cycle42.com](mailto:ironbelly@cycle42.com)
 
 {:.font-medium .text-2xl .font-bold .mb-4 .mt-8 .text-left}
-Grant campaign
+Want to support?
 
 {:.leading-loose .w-full .lg:w-1/2 .xl:w-3/5}
 If you would like to support Ironbelly - we are running a grant campaign on Gitcoin [https://gitcoin.co/grants/58/ironbelly](https://gitcoin.co/grants/58/ironbelly).
@@ -57,7 +54,8 @@ If you would like to support Ironbelly - we are running a grant campaign on Gitc
 Credits
 
 {:.list-reset .limitations-list .w-full .lg:w-1/2 .xl:w-3/5}
-* {:.leading-loose } This website and the app design - **@GBKS** ([figma project](https://www.figma.com/file/n5o6ptY5FaPS1E1KmR0Bcx/Grin-web-wallet))
+* {:.leading-loose } Website and app design - **Christoph Ono @GBKS** ([figma project](https://www.figma.com/file/n5o6ptY5FaPS1E1KmR0Bcx/Grin-web-wallet))
+* {:.leading-loose } App logo - **Juan Alejandro @gringo**
 
 
 </section>
