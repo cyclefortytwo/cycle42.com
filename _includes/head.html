@@ -24,7 +24,11 @@
   name="description"
   content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}"
 />
-<link rel="icon" type="image/png" href="/favicon.png" />
+<link
+  rel="icon"
+  type="image/png"
+  href="{% if page.favicon %}{{site.url}}{{page.favicon}}{% else %}{{site.url}}{{site.favicon}}{% endif %}"
+/>
 
 <!-- Google+ -->
 <link rel="publisher" href="https://plus.google.com/{{site.googleplus}}" />

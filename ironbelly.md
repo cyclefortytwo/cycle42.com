@@ -6,6 +6,7 @@ image: /img/Ironbelly.png
 github: https://github.com/cyclefortytwo/ironbelly
 gitter: https://gitter.im/ironbelly-wallet/community
 testflight: https://testflight.apple.com/join/GrqGPx9W
+favicon: /img/ironbelly_favicon.png
 ---
 
 <section class="bg-total-black" >
