@@ -19,7 +19,7 @@ favicon: /img/ironbelly_favicon.png
 ## Grin mobile wallet you've deserved
 
 {:.list-reset .flex .items-center .sm:items-start .flex-col .sm:flex-row .pb-4 .sm:pb-8 .justify-center .lg:justify-start}
-* {:.py-6}[<i class="fab fa-apple"></i>&nbsp;&nbsp;Join the iOS beta test]({{ page.testflight }}){:.bg-yellow .hover:bg-yellow-dark .text-black .py-3 .px-4 .rounded .font-medium .no-underline}
+* {:.py-6}[<i class="fab fa-apple"></i>&nbsp;&nbsp;Join the iOS beta test]({{ page.testflight }}){:.bg-yellow-400 .hover:bg-yellow-500 .text-black .py-3 .px-4 .rounded .font-medium .no-underline}
 * {:.py-6 .hidden .sm:block}[<i class="fab fa-github"></i>&nbsp;&nbsp;Github]({{ page.github }}){:.bg-total-black .hover:bg-black .text-white .py-3 .px-4 .rounded .font-light .no-underline .sm:ml-8 .border .border-white}
 * {:.py-6 .hidden .sm:block}[<i class="fab fa-gitter"></i>&nbsp;&nbsp;Gitter]({{ page.gitter }}){:.bg-total-black .hover:bg-black .text-white .py-3 .px-4 .rounded .font-light .no-underline .sm:ml-8 .border .border-white}
 </div>
@@ -37,26 +37,24 @@ favicon: /img/ironbelly_favicon.png
 <div class="w-1/2 text-center text-2xl"><a class="text-black no-underline" href="{{ page.gitter }}"><i class="fab fa-gitter"></i>&nbsp;&nbsp;Gitter</a></div>
 </div>
 
-{:.font-medium .text-2xl .font-bold .mb-4 .text-left}
-Limitations
-
-{:.list-reset .limitations-list .w-full .lg:w-1/2 .xl:w-3/5}
-* {:.leading-loose } Please do not close the app during the initial wallet recovery - we are working on making it interruptable, but currently it's not
-* {:.leading-loose } Bug reports and suggestions - [ironbelly@cycle42.com](mailto:ironbelly@cycle42.com)
-
-{:.font-medium .text-2xl .font-bold .mb-4 .mt-8 .text-left}
+{:.font-medium .text-2xl .font-bold .mb-0 .mt-8 .text-left}
 Want to support?
 
 {:.leading-loose .w-full .lg:w-1/2 .xl:w-3/5}
 If you would like to support Ironbelly - we are running a grant campaign on Gitcoin [https://gitcoin.co/grants/58/ironbelly](https://gitcoin.co/grants/58/ironbelly).
 
 
-{:.font-medium .text-2xl .font-bold .mb-4 .mt-8 .text-left}
+{:.font-medium .text-2xl .font-bold .mb-0 .mt-8 .text-left}
 Credits
 
 {:.list-reset .limitations-list .w-full .lg:w-1/2 .xl:w-3/5}
 * {:.leading-loose } Website and app design - **Christoph Ono @GBKS** ([figma project](https://www.figma.com/file/n5o6ptY5FaPS1E1KmR0Bcx/Grin-web-wallet))
 * {:.leading-loose } App logo - **Juan Alejandro @gringo**
+
+{:.font-medium .text-2xl .font-bold .mb-0 .mt-8 .text-left}
+Feedback
+* {:.leading-loose } Bug reports and suggestions - [ironbelly@cycle42.com](mailto:ironbelly@cycle42.com)
+
 
 
 </section>

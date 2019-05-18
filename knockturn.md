@@ -17,7 +17,7 @@ excerpt: "Grin payment processor you've deserved"
 <div class='embed-container mb-8 xl:-mt-8 xl:mx-16 xl:mb-0'><iframe src='https://player.vimeo.com/video/322912245' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 <div class="text-center mb-8">
-<a href="mailto:knockturn@cycle42.com?subject=Join closed beta" class="bg-pink hover:bg-pink-dark text-white py-3 px-4 rounded font-medium no-underline">Join closed beta</a>
+<a href="mailto:knockturn@cycle42.com?subject=Join closed beta" class="bg-pink-600 hover:bg-pink-700 text-white py-3 px-4 rounded font-medium no-underline">Join closed beta</a>
 </div>
 </div>
 </section>
