@@ -1,8 +1,8 @@
 ---
 layout: landing
 title: "Home Page"
-fulltitle: "Cypherpunk cooperative located in Berlin"
-excerpt: Cypherpunk cooperative located in Berlin
+fulltitle: "Cypherpunk collective located in Berlin"
+excerpt: Cypherpunk collective located in Berlin
 
 ---
 <!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
@@ -32,7 +32,7 @@ What is **[Grin](http://grin-tech.org/)**? Electronic transactions for all. With
 {:.leading-normal .mt-8}
 To achive our mission we:
 * Contribute to core-development of **[Grin](https://github.com/mimblewimble/grin/)**
-* Develop iOS/Android wallet for Grin - **[Ironbelly](/ironbelly)**
+* Develop iOS/Android wallet for Grin - **[Ironbelly](https://ironbelly.app)**
 * Develop OpenCL miner for Grin - already a part of grin-miner
 * Develop Trezor/Ledger wallet integration - *Coming soon*{:.text-grey-dark}
 * Run Berlin MimbleWimble/Grin [Meetup group](https://www.meetup.com/MimbleWimble-Grin-Berlin/)
